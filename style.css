@@ -25,14 +25,14 @@ a{
 	font-weight: 700;
 	font-size: 18px;
 	color: #5B6982;
-	font-family: Helvetica, sans-serif;
+	font-family: Mukta, sans-serif;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
-.sidebar-item:howver {
+.sidebar-item:hover {
 	color: black;
 }
 
@@ -40,13 +40,13 @@ a{
 
 #ireneli {
 	font-size: 75px;
-	font-family: Helvetica, sans-serif;
+	font-family: Roboto, sans-serif;
 }
 
 /* about section */
 
 #about {
-	position: absolute;
+	position: right;
 	width: 550px;
 	top: 100px;
 	bottom: 0;
