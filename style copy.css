@@ -18,7 +18,7 @@ a{
   opacity: 0.85;
   	width: 200px;
   	height: 100px;
-  	background-color: white;
+  	background-color: white; 
 }
 
 .sidebar-item {
@@ -30,6 +30,7 @@ a{
 	padding-bottom: 15px;
 	padding-left: 20px;
 	padding-right: 20px;
+	text-align: left;
 }
 
 .sidebar-item:hover {
