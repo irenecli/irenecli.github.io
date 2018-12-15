@@ -7,50 +7,108 @@ body,html {
 	height: 100%;
 }
 
-a{
-	text-decroation: none;
+a {
+	text-decoration: none;
 }
 
-/* sidebar */
-.sidebar-wrapper {
-	position: fixed;
-  z-index: 10;
-  opacity: 0.85;
-  	width: 200px;
-  	height: 100px;
-  	background-color: white; 
+a:hover {
+	color: #6B7A8F;
+	transition: .2s linear;
+	border-bottom: 2px solid currentColor;
+	line-height: 15px;
+} 
+
+/*INDEX PAGE*/
+
+.home-page-wrapper {
+	width: 100%;
+	height: 100%;
 }
 
-.sidebar-item {
+#navbar {
+	width: 100%;
+	height: 100%;
+	font-family: 'Mukta', sans-serif;
+}
+
+.navbar-item {
+		display: inline-block;
+		margin-top: 60px;
+		margin-left: 40px;
+		text-decoration: none;
+		padding-bottom: 3px;
+	transition: .2s linear;
+	color: #3f3f3f;
+}
+
+.navbar-item: hover {
+	border-bottom: 1.5px solid currentColor;
+	cursor: pointer;
+	transition: .2s linear;
+}
+
+#current-navbar-item {
+	color: #3f3f3f;
+	border-bottom: 2px solid currentColor;
+	line-height: 15px;
+}
+
+#work-navbar-item {
+	color: #3f3f3f;
+	line-height: 15px;
+	float:right;
+}
+
+#about-navbar-item {
+	color: #3f3f3f;
+	line-height: 15px;
+	float:right;
+}
+
+#resume-navbar-item {
+	color: #3f3f3f;
+	line-height: 15px;
+	float:right;
+}
+
+#intro {
+	font-family: 'Mukta', sans-serif;
 	font-weight: 700;
-	font-size: 18px;
-	color: #5B6982;
-	font-family: Mukta, sans-serif;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	padding-left: 20px;
-	padding-right: 20px;
-	text-align: left;
+	font-size: 34px;
+	margin-top: 10%;
+	float: left;
+	animation-name: fade-in-from-top;
+	animation-duration: 2s;
 }
 
-.sidebar-item:hover {
-	color: black;
+@keyframes fade-in-from-top {
+	from { opacity: 0; margin-top: -30%; }
+	to { opacity: 1; }
 }
 
-/* main section */
-
-#ireneli {
-	font-size: 75px;
-	font-family: Roboto, sans-serif;
-}
-
-/* about section */
-
-#about {
-	position: right;
-	width: 550px;
-	top: 100px;
+#footer {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	font-family: 'Mukta', sans-serif;
 	bottom: 0;
-	left: 420;
-	right: ;
+	z-index: 5;
+	background-color: white;
 }
+
+
+.footer-icon {
+	font-size: 14px;
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+	text-decoration: none;
+	color: #3f3f3f;
+}
+
+
+
+
+
