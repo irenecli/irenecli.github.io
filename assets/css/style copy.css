@@ -1,0 +1,114 @@
+style.css
+
+body,html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #6B7A8F;
+	transition: .2s linear;
+	border-bottom: 2px solid currentColor;
+	line-height: 15px;
+} 
+
+/*INDEX PAGE*/
+
+.home-page-wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+#navbar {
+	width: 100%;
+	height: 100%;
+	font-family: 'Mukta', sans-serif;
+}
+
+.navbar-item {
+		display: inline-block;
+		margin-top: 60px;
+		margin-left: 40px;
+		text-decoration: none;
+		padding-bottom: 3px;
+	transition: .2s linear;
+	color: #3f3f3f;
+}
+
+.navbar-item: hover {
+	border-bottom: 1.5px solid currentColor;
+	cursor: pointer;
+	transition: .2s linear;
+}
+
+#current-navbar-item {
+	color: #3f3f3f;
+	border-bottom: 2px solid currentColor;
+	line-height: 15px;
+}
+
+#work-navbar-item {
+	color: #3f3f3f;
+	line-height: 15px;
+	float:right;
+}
+
+#about-navbar-item {
+	color: #3f3f3f;
+	line-height: 15px;
+	float:right;
+}
+
+#resume-navbar-item {
+	color: #3f3f3f;
+	line-height: 15px;
+	float:right;
+}
+
+#intro {
+	font-family: 'Mukta', sans-serif;
+	font-weight: 700;
+	font-size: 34px;
+	margin-top: 10%;
+	float: left;
+	animation-name: fade-in-from-top;
+	animation-duration: 2s;
+}
+
+@keyframes fade-in-from-top {
+	from { opacity: 0; margin-top: -30%; }
+	to { opacity: 1; }
+}
+
+#footer {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	font-family: 'Mukta', sans-serif;
+	bottom: 0;
+	z-index: 5;
+	background-color: white;
+}
+
+
+.footer-icon {
+	font-size: 14px;
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+	text-decoration: none;
+	color: #3f3f3f;
+}
+
+
+
+
+
