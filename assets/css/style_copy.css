@@ -57,15 +57,15 @@ a:hover {
 	color: #3f3f3f;
 	line-height: 15px;
 	float:right;
-	margin-right: 10px;
+	margin-right: 0.1em;
 	z-index: 5;
 }
 
 #about-navbar-item {
 	color: #3f3f3f;
-	line-height: 15px;
+	line-height: 40px;
 	float:right;
-	margin-right: 10px;
+	margin-right: 0.1em;
 	z-index: 5;
 }
 
@@ -73,7 +73,7 @@ a:hover {
 	color: #3f3f3f;
 	line-height: 15px;
 	float:right;
-	margin-right: 20px;
+	margin-right: 0.1em;
 	z-index: 5;
 }
 
@@ -109,7 +109,7 @@ a:hover {
 	font-size: 14px;
 	display: inline-block;
 	float: right;
-	margin-right: 20px;
+	margin-right: 52px;
 	z-index: 5;
 	text-decoration: none;
 	color: #3f3f3f;
