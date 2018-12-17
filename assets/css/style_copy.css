@@ -110,6 +110,7 @@ a:hover {
 	display: inline-block;
 	float: right;
 	margin-right: 20px;
+	z-index: 5;
 	text-decoration: none;
 	color: #3f3f3f;
 }
