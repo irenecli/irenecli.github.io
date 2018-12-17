@@ -57,19 +57,24 @@ a:hover {
 	color: #3f3f3f;
 	line-height: 15px;
 	float:right;
-	right: 30px;
+	margin-right: 20px;
+	z-index: 5;
 }
 
 #about-navbar-item {
 	color: #3f3f3f;
 	line-height: 15px;
 	float:right;
+	margin-right: 20px;
+	z-index: 5;
 }
 
 #resume-navbar-item {
 	color: #3f3f3f;
 	line-height: 15px;
 	float:right;
+	margin-right: 20px;
+	z-index: 5;
 }
 
 #intro {
