@@ -34,7 +34,7 @@ a:hover {
 .navbar-item {
 		display: inline-block;
 		margin-top: 60px;
-		margin-left: 40px;
+		margin-left: 45px;
 		text-decoration: none;
 		padding-bottom: 3px;
 	transition: .2s linear;
@@ -109,7 +109,7 @@ a:hover {
 	font-size: 14px;
 	display: inline-block;
 	float: right;
-	margin-right: 52px;
+	margin-right: 55px;
 	z-index: 5;
 	text-decoration: none;
 	color: #3f3f3f;
