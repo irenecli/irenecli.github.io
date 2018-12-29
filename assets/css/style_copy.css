@@ -14,8 +14,6 @@ a {
 a:hover {
 	color: #6B7A8F;
 	transition: .2s linear;
-	border-bottom: 2px solid currentColor;
-	line-height: 15px;
 } 
 
 /*INDEX PAGE*/
@@ -60,6 +58,7 @@ a:hover {
 	float:right;
 	margin-right: 40px;
 	z-index: 5;
+	line-height: 15px;
 }
 
 #about-navbar-item {
