@@ -78,15 +78,12 @@ a:hover {
 }
 
 #intro {
+	width: 50%;
+	height: 50%;
 	font-family: 'Mukta', sans-serif;
 	font-weight: 800;
 	font-size: 34px;
 	line-height: 36px;
-}
-
-.typewrite {
-	margin-top: 10%;
-	float: left;
 }
 
 #footer {
