@@ -81,6 +81,7 @@ a:hover {
 	font-family: 'Mukta', sans-serif;
 	font-weight: 800;
 	font-size: 34px;
+	line-height: 36px;
 	margin-top: 10%;
 	float: left;
 	animation-name: fade-in-from-top;
