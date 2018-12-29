@@ -85,6 +85,7 @@ a:hover {
 	float: right;
 	animation-name: fade-in-from-top;
 	animation-duration: 2s;
+	animation-fill-mode: backwards;
 }
 
 @keyframes fade-in-from-top {
