@@ -83,6 +83,7 @@ a:hover {
 	font-size: 34px;
 	line-height: 36px;
 	margin-top: 10%;
+	margin-bottom: 50%;
 	float: left;
 	animation-name: fade-in-from-top;
 	animation-duration: 2s;
