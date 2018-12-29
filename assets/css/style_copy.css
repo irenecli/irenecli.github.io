@@ -84,6 +84,11 @@ a:hover {
 	line-height: 36px;
 }
 
+.typewrite {
+	margin-top: 10%;
+	float: left;
+}
+
 #footer {
 	position: absolute;
 	width: 100%;
