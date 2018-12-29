@@ -83,7 +83,9 @@ a:hover {
 	font-weight: 700;
 	font-size: 34px;
 	line-height: 36px;
+	position: absolute;
 	margin-top: 10%;
+	padding-bottom: 40px;
 	float: left;
 }
 
