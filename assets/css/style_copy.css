@@ -82,11 +82,6 @@ a:hover {
 	font-weight: 800;
 	font-size: 34px;
 	line-height: 36px;
-	float: right;
-	display: flex;
-	position: fixed;
-	align-items: center;
-	justify-content: center;
 }
 
 #footer {
