@@ -86,13 +86,6 @@ a:hover {
 	margin-top: 10%;
 	margin-bottom: 40px;
 	float: right;
-	animation-name: fade-in-from-top;
-	animation-duration: 2s;
-}
-
-@keyframes fade-in-from-top {
-	from { opacity: 0; margin-top: -30%; }
-	to { opacity: 1; }
 }
 
 #footer {
