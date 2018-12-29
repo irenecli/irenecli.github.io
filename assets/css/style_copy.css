@@ -83,7 +83,7 @@ a:hover {
 	font-size: 34px;
 	line-height: 36px;
 	float: right;
-	padding-bottom: 50px;
+	padding-bottom: -50px;
 	animation-name: fade-in-from-top;
 	animation-duration: 2s;
 }
