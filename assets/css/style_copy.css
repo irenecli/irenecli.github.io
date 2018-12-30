@@ -83,6 +83,7 @@ a:hover {
 	font-size: 34px;
 	line-height: 36px;
 	margin: 30px, 15px;
+	max-height: 50px;
 }
 
 #footer {
