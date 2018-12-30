@@ -80,11 +80,11 @@ a:hover {
 
 #intro {
 	width: 35%;
-	margin-left: 18%;
-	margin-top: 5%;
+	margin-right: 18%;
+	margin-top: 20%;
 	object-fit: cover;
-	float: left;
-	animation-name: fade-in-from-bottom;
+	float: right;
+	animation-name: fade-in-from-top;
 	animation-duration: 2s;
 	animation-fill-mode: forwards;
 	font-family: 'Mukta', sans-serif;
@@ -93,8 +93,8 @@ a:hover {
 	line-height: 36px;
 }
 
-@keyframes fade-in-from-bottom {
-	from { opacity: 0; margin-top: 40%; }
+@keyframes fade-in-from-top {
+	from { opacity: 0; margin-top: 50%; }
 	to { opacity: 1; }
 }
 
