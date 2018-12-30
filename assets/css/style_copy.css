@@ -81,7 +81,7 @@ a:hover {
 #intro {
 	width: 35%;
 	margin-right: 18%;
-	margin-top: 20%;
+	margin-bottom: 20%;
 	object-fit: cover;
 	float: right;
 	animation-name: fade-in-from-top;
@@ -94,7 +94,7 @@ a:hover {
 }
 
 @keyframes fade-in-from-top {
-	from { opacity: 0; margin-top: 50%; }
+	from { opacity: 0; margin-bottom: 50%; }
 	to { opacity: 1; }
 }
 
