@@ -27,6 +27,14 @@ a:hover {
 	width: 100%;
 	height: 100%;
 	font-family: 'Mukta', sans-serif;
+		display: flex;
+		justify-content:space-between;
+}
+
+.flex-right{
+	justify-content: flex-end;
+	display: flex;
+	margin-right: 40px;
 }
 
 .navbar-item {
@@ -59,6 +67,7 @@ a:hover {
 	margin-right: 40px;
 	z-index: 5;
 	line-height: 15px;
+		order:1;
 }
 
 #about-navbar-item {
@@ -67,6 +76,7 @@ a:hover {
 	float:right;
 	margin-right: 0.1em;
 	z-index: 5;
+		order: 2;
 }
 
 #resume-navbar-item {
@@ -75,6 +85,7 @@ a:hover {
 	float:right;
 	margin-right: 0.1em;
 	z-index: 5;
+		order: 3;
 }
 
 #container {
