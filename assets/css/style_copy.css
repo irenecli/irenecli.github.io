@@ -21,7 +21,6 @@ a:hover {
 .home-page-wrapper {
 	width: 100%;
 	height: 100%;
-	display: flex;
 }
 
 #navbar {
@@ -30,7 +29,6 @@ height: 100%;
 font-family: 'Mukta', sans-serif;
   display:flex;
   justify-content:space-between;
-  flex:0;
 }
 
 .flex_right {
@@ -60,7 +58,6 @@ transition: .2s linear;
 color: #3f3f3f;
 border-bottom: 2px solid currentColor;
 line-height: 15px;
-position: absolute;
 }
 
 #work-navbar-item {
@@ -68,7 +65,6 @@ color: #3f3f3f;
 line-height: 15px;
 z-index: 5;
 line-height: 15px;
-position: absolute;
   order:1; 
 }
 
@@ -76,7 +72,6 @@ position: absolute;
 color: #3f3f3f;
 line-height: 15px;
 z-index: 5;
-position: absolute;
   order:2;
 }
 
@@ -85,17 +80,16 @@ color: #3f3f3f;
 line-height: 15px;
 float:right;
 z-index: 5;
-position: absolute;
   order:3;
 }
 
 #container {
 	width: 100%;
+	height: 100vh;
 	margin-right: 55px;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	flex:1;
 }
 
 #intro {
@@ -115,6 +109,7 @@ to { opacity: 1; margin-bottom: -30%; }
 }
 
 #footer {
+	position: absolute;
 	width: 100%;
 	height: 40px;
 	padding-bottom: 20px;
@@ -123,8 +118,6 @@ to { opacity: 1; margin-bottom: -30%; }
 	bottom: 0;
 	z-index: 5;
 	background-color: white;
-	flex:0;
-	align-items: right;
 }
 
 
