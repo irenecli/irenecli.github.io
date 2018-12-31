@@ -30,6 +30,7 @@ height: 100%;
 font-family: 'Mukta', sans-serif;
   display:flex;
   justify-content:space-between;
+  flex:0;
 }
 
 .flex_right {
@@ -118,6 +119,7 @@ to { opacity: 1; margin-bottom: -30%; }
 	bottom: 0;
 	z-index: 5;
 	background-color: white;
+	flex:0;
 }
 
 
