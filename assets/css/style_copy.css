@@ -144,6 +144,7 @@ to { opacity: 1; margin-bottom: -30%; }
 	font-family: 'Mukta', sans-serif
 	font-size: 14px;
 	line-height: 16px;
+	display: flex;
 	color: #272726;
 }
 
