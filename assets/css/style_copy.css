@@ -87,6 +87,46 @@ z-index: 5;
   order:3;
 }
 
+#cover-pic {
+	position: absolute;
+	width: 40%;
+	object-fit: cover;
+	opacity: 0.6;
+	left: 18%;
+	z-index: -1;
+}
+
+#pic-description {
+	position: absolute;
+	left: 55%;
+	top: 20%;
+	font-family: 'Gotham', book;
+	text-align: center;
+	color: white;
+}
+
+#hover-prompt-pic {
+	position: absolute;
+	left: 18%;
+	top: 25%;
+	width: 50px;
+	object-fit: cover;
+}
+
+#hover-prompt {
+	position: absolute;
+	left: 23%;
+	top: 23%;
+	width: 15px;
+	height: 15px;
+	border: 2px solid #939393;
+	cursor: pointer;
+}
+
+#name {
+	display: none;
+}
+
 #container {
 	width: 100%;
 	display: flex;
